@@ -1,8 +1,10 @@
 from django.contrib import admin
 from .models import CustomText
 
+
 @admin.register(CustomText)
 class CusomTextAdmin(admin.ModelAdmin):
-  pass
+    pass
+
 
 # Register your models here.
