@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import CustomText
+from .models import CustomText, HomePage
 
 
 @admin.register(CustomText)
