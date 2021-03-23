@@ -1,7 +1,10 @@
 from django.contrib import admin
 from .models import CustomText, HomePage
 
-admin.site.register(CustomText)
+@admin.register(CustomText)
+class CustomTextAdmin(admin.ModelAdmin):
+  pass
+
 admin.site.register(HomePage)
 
 
