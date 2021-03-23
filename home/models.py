@@ -45,3 +45,10 @@ class HomePage(models.Model):
     @property
     def field(self):
         return "body"
+
+
+class Hello(models.Model):
+    "Generated Model"
+    email = models.EmailField(
+        max_length=254,
+    )
